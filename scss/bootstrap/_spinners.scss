@@ -6,6 +6,16 @@
   to { transform: rotate(360deg); }
 }
 
+.box{
+  background: class="dropdown-menu";
+  color: #FE9A2E;
+  padding: 10px;
+  width: 250px;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0 5px 25px;
+}
 .spinner-border {
   display: inline-block;
   width: $spinner-width;
