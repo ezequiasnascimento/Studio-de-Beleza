@@ -1,5 +1,4 @@
-
-  <!DOCTYPE html>
+<!DOCTYPE html>
   <html lang="en">
     <head>
       <title>Studio De Beleza</title>
@@ -48,13 +47,16 @@
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> Menu
           </button>
+  
           <div class="collapse navbar-collapse" id="ftco-nav">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active"><a href="index.html" class="nav-link">Inicio</a></li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Serviços</a>
-                  <div class="dropdown-menu" aria-labelledby="dropdown04">
-                    <a class="dropdown-item" href="shop.html">Serviços</a>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active"><a href="index.html" class="nav-link">Inicio</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Serviços</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown04">
+                  <a class="dropdown-item" href="shop.html">Serviços</a>
+                </div>
+              </li>
               
               
               <li class="nav-item"><a href="contact.html" class="nav-link">Sobre nós</a></li>
@@ -65,8 +67,8 @@
           </div>
         </div>
       </nav>
-<link rel="stylesheet" type="text/css" href="css/login.css" />
-<script type="text/javascript" src="js/login.js"></script>
+<link rel="stylesheet" type="text/css" href="css/cadastro.css" />
+<script type="text/javascript" src="js/cadastro.js"></script>
 
 </head>
 
@@ -83,8 +85,8 @@
     <div class="cont_ba_opcitiy">
             
             <h2>Cliente</h2>  
-      <p>Logue para visualizar os serviços disponiveis perto de você!</p> 
-      <button class="btn_login" onclick="cambiar_login()">Entrar como cliente</button>
+      <p>Cadastre-se para usufruir dos serviços disponiveis perto de você!</p> 
+      <button class="btn_login" onclick="cambiar_login()">Cadastre como cliente</button>
       </div>
       </div>
     <div class="col_md_sign_up">
@@ -92,9 +94,9 @@
       <h2>Comerciante</h2>
     
       
-      <p>Logue para poder gerenciar seus negocios!</p>
+      <p>Cadastre-se para gerenciar seus negocios!</p>
     
-      <button class="btn_sign_up" onclick="cambiar_sign_up()">Entrar como vendedor</button>
+      <button class="btn_sign_up" onclick="cambiar_sign_up()">Cadastre como vendedor</button>
     </div>
       </div>
            </div>
@@ -113,19 +115,28 @@
      <div class="cont_form_login">
     <a href="#" onclick="ocultar_login_sign_up()" ><i class="material-icons">&#xE5C4;</i></a>
     <h2>Insira seus dados</h2>
-     <input type="text" placeholder="Email" />
+     <input type="text" placeholder="Nome" />
+    <input type="password" placeholder="CPF" />
+    <input type="text" placeholder="Especialidade" />
+    <input type="text" placeholder="Email" />
+   
     <input type="password" placeholder="Senha" />
-    <a href="ti_logado.html">    <button class="btn_login" onclick="cambiar_login()" >LOGIN</button></a>
+    <input type="password" placeholder="Re-digite sua Senha" />
+    <a href="login.html">    <button class="btn_sign_up" onclick="cambiar_login()" >Cadastrar</button></a>
       </div>
       
        <div class="cont_form_sign_up">
     <a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
          <h2>Insira seus dados</h2>
+    <input type="text" placeholder="Nome" />
+    <input type="password" placeholder="CPF" />
+    <input type="text" placeholder="Especialidade" />
     <input type="text" placeholder="Email" />
    
     <input type="password" placeholder="Senha" />
+    <input type="password" placeholder="Re-digite sua Senha" />
     
-    <a href="ti_logado.html">    <button class="btn_sign_up" onclick="cambiar_login()" >LOGIN</button></a>
+    <a href="login.html">    <button class="btn_sign_up" onclick="cambiar_login()" >Cadastrar</button></a>
     
       </div>
     
